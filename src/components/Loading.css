@@ -1,0 +1,23 @@
+.loading_icon {
+  font-size: 50px;
+  animation-name: loadingAnim;
+  animation-duration: 1s;
+}
+
+.loading_box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+@keyframes loadingAnim {
+  to {
+    transform: rotate(60deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
